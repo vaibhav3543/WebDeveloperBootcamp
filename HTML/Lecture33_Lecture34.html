@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Label and Form Validations</title>
+</head>
+<body>
+	<h2>Form with action and method - Labels</h2>
+	<form action="http://www.wikipedia.org" method="get">
+		<label> UserName: <input type="text" name="textInput" placeholder="userName" id="userName"></label>
+		<label for="passwordUserName">Password:</label>
+		<input type="password" name="passwordInput" placeholder="password" id="passwordUserName">
+		<input type="submit">
+	</form>
+
+	<h2>Form with basic validations</h2>
+	<form action="http://www.wikipedia.org" method="get">
+		<label> Email: <input type="email" name="textInput" placeholder="userName" id="userName1" required></label>
+		<label for="passwordUserName1">Password:</label>
+		<input type="password" name="passwordInput" placeholder="password" id="passwordUserName1" required>
+		<input type="submit">
+	</form>
+
+</body>
+</html>

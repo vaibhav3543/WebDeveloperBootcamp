@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Input Variants</title>
+</head>
+<body>
+	<h2>Form without action and method</h2>
+<!-- 		if no action and method are specified then after the submit - action is the current page and method is get by default-->	
+	<form>
+		<input type="text" name="textInput" placeholder="userName" id="userName">
+		<input type="password" name="passwordInput" placeholder="password" id="password">
+		<input type="submit">
+	</form>
+
+	<h2>Form with action and method</h2>
+	<form action="http://www.wikipedia.org" method="post">
+		<input type="text" name="textInput" placeholder="userName" id="userName">
+		<input type="password" name="passwordInput" placeholder="password" id="password">
+		<input type="submit">
+	</form>
+</body>
+</html>
